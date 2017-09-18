@@ -52,6 +52,10 @@ a:hover {
     text-align: center;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #000
+}
+
 .ourmenu h1{
     font-weight: bold;
     color: black;
