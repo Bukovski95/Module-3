@@ -41,8 +41,7 @@ a:hover {
     text-align: center;
     font-size: 1.8em;
     background-color: white;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid black;
 }
 
 
@@ -52,7 +51,6 @@ a:hover {
 .ourmenu {
     text-align: center;
 }
-
 
 .ourmenu h1{
     font-weight: bold;
@@ -64,11 +62,11 @@ a:hover {
     background-color: #7e7e7e;
 }
 
-.chicken {
+.chicken, .beef, .sushi {
     text-align: center;
     color: black;
     font-weight: bold;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -80,9 +78,15 @@ a:hover {
     font-family: sans-serif;
 }
 
+.btt {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
 /** Making the main content always stretch out without playing around with margins **/
 @media (min-width: 300px) {
-.container {
-    width: 98%;
-}
+    .container {
+        width: 98%;
+    }
 }
